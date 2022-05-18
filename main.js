@@ -28,49 +28,49 @@
 
 
 // String	כתוב פונקציה ב-JS המקבלת מחרוזת ומחזירה uppercase שלה	
-// function mahrozet(str){
+// function printWithUpperCase(str){
 //     return str.toUpperCase();
 // }
-// console.log(mahrozet("hello world"));
+// console.log(printWithUpperCase("hello world"));
 
 // כתוב פונקציה ב-JS המקבלת מחרוזת עם מספרים מופרדים בעזרת פסיק ומחזירה מערך של המספרים.
 // לדוגמא עבור "12,3,455" יוחזר מערך עם המספרים 12,3,455
-// function someFunc(){
+// function printAndReturnWithOutSrtingType(){
 //     var sum = []
 //     var cutStr="12,3,455";
 //     cutStr.concat();
 //     sum+=cutStr
 //     return sum
 // }
-// console.log(someFunc());
+// console.log(printAndReturnWithOutSrtingType());
 
 // כתוב פונקציה ב-JS המקבלת מחרוזת של key:value מופרדים בעזרת פסיק. יש להחזיר את אורך מחרוזת value הארוכה ביותר.
 // לדוגמא עבור המחרוזת 7 (האורך של "krasney")
  
-function printBiggestLength(myString){
-    var maxlengthvalue = ""
-    var startValue = ""
-for(var i = 0 ; i<myString.length;i++){
+// function printBiggestLength(myString){
+//     var maxlengthvalue = ""
+//     var startValue = ""
+// for(var i = 0 ; i<myString.length;i++){
 
-    if(myString[i]==":"){
-        startIndex = i+1
-    }
+//     if(myString[i]==":"){
+//         startIndex = i+1
+//     }
 
-    if(myString[i]==":"){
-        endIndex = i
-       startValue = myString.substring(startIndex,endIndex)
+//     if(myString[i]==":"){
+//         endIndex = i
+//        startValue = myString.substring(startIndex,endIndex)
 
-    }
-    if(myString[i]==":"){
-        endIndex = i+1
-        startValue = myString.substring(startValue,endIndex)
-    }
-    if(startValue.length > maxlengthvalue){
-        maxlengthvalue = startValue ;
-    }
+//     }
+//     if(myString[i]==":"){
+//         endIndex = i+1
+//         startValue = myString.substring(startValue,endIndex)
+//     }
+//     if(startValue.length > maxlengthvalue){
+//         maxlengthvalue = startValue ;
+//     }
     
-}
-return maxlengthvalue ;
+// }
+// return maxlengthvalue
 
 }
 printBiggestLength("lior:hamelech , eldad:barahano , nati:banana")
