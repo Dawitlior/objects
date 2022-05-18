@@ -48,11 +48,29 @@
 // לדוגמא עבור המחרוזת 7 (האורך של "krasney")
  
 function printBiggestLength(myString){
+    var maxlengthvalue = ""
+    var startValue = ""
 for(var i = 0 ; i<myString.length;i++){
+
     if(myString[i]==":"){
-        
+        startIndex = i+1
     }
+
+    if(myString[i]==":"){
+        endIndex = i
+       startValue = myString.substring(startIndex,endIndex)
+
+    }
+    if(myString[i]==":"){
+        endIndex = i+1
+        startValue = myString.substring(startValue,endIndex)
+    }
+    if(startValue.length > maxlengthvalue){
+        maxlengthvalue = startValue ;
+    }
+    
 }
+return maxlengthvalue ;
 
 }
 printBiggestLength("lior:hamelech , eldad:barahano , nati:banana")
