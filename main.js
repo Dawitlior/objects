@@ -72,5 +72,5 @@
 // }
 // return maxlengthvalue
 
-}
-printBiggestLength("lior:hamelech , eldad:barahano , nati:banana")
+// }
+// printBiggestLength("lior:hamelech , eldad:barahano , nati:banana")
