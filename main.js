@@ -44,4 +44,15 @@
 // }
 // console.log(someFunc());
 
-// 
+// כתוב פונקציה ב-JS המקבלת מחרוזת של key:value מופרדים בעזרת פסיק. יש להחזיר את אורך מחרוזת value הארוכה ביותר.
+// לדוגמא עבור המחרוזת 7 (האורך של "krasney")
+ 
+function printBiggestLength(myString){
+for(var i = 0 ; i<myString.length;i++){
+    if(myString[i]==":"){
+        
+    }
+}
+
+}
+printBiggestLength("lior:hamelech , eldad:barahano , nati:banana")
