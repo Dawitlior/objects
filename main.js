@@ -12,6 +12,9 @@
 // user()
 
 
+
+
+
 // צרו פונקציה המקבלת מהמשתמש שם משפחה, אם השם מסתיים ב E היא מחזירה "yes" אחרת היא מחזירה "no".
 // יש ללמוד את שקופית 27 ולתרגל ברשת.
 // function users(){
@@ -27,11 +30,15 @@
 
 
 
+
 // String	כתוב פונקציה ב-JS המקבלת מחרוזת ומחזירה uppercase שלה	
 // function printWithUpperCase(str){
 //     return str.toUpperCase();
 // }
 // console.log(printWithUpperCase("hello world"));
+
+
+
 
 // כתוב פונקציה ב-JS המקבלת מחרוזת עם מספרים מופרדים בעזרת פסיק ומחזירה מערך של המספרים.
 // לדוגמא עבור "12,3,455" יוחזר מערך עם המספרים 12,3,455
@@ -43,6 +50,8 @@
 //     return sum
 // }
 // console.log(printAndReturnWithOutSrtingType());
+
+
 
 // כתוב פונקציה ב-JS המקבלת מחרוזת של key:value מופרדים בעזרת פסיק. יש להחזיר את אורך מחרוזת value הארוכה ביותר.
 // לדוגמא עבור המחרוזת 7 (האורך של "krasney")
@@ -73,4 +82,6 @@
 // return maxlengthvalue
 
 // }
-// printBiggestLength("lior:hamelech , eldad:barahano , nati:banana")
+// printBiggestLength("lior:hamelech , eldad:barahano , nati:banana");
+
+
